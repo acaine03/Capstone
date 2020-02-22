@@ -1,0 +1,29 @@
+* {
+    color: #f2f4fb;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+    font-family: Aclonica;
+    background-color: #0900C3;
+}
+
+.left-side-nav {
+    
+}
