@@ -26,7 +26,9 @@ a:hover {
 
 .left-side-nav {
     background-color: #6F0765;
-
+    height: 600px;
+    width: 150px;
+    font-family: Vidaloka;
 }
 
 .sign-in-button button {
