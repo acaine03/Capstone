@@ -25,5 +25,10 @@ a:hover {
 }
 
 .left-side-nav {
-    
+    background-color: #6F0765;
+
+}
+
+.sign-in-button button {
+    color: black;
 }
