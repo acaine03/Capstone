@@ -40,28 +40,50 @@ a:hover {
 .top-banner {
     display: flex;
     justify-content: center;
-    font-family: Aclonica;
+    font-family: "Aclonica";
     background-color: #0900C3;
     height: 150px;
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 .left-side-nav {
-    background-color: #6F0765;
-    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-self: flex-start;
+    height: 507px;
     width: 175px;
-    font-family: Vidaloka;
+    padding-right: inherit;
+    background-color: #6F0765;
+    font-family: "Vidaloka";
     font-size: 20px;
 }
 
 .sign-in-button button {
+    display: flex;
+    align-self: center;
     color: black;
+}
+
+.sign-in-button {
+    display: flex;
+    align-self: center;
 }
 
 .username {
+    display: flex;
+    align-self: center;
     color: black;
+    
 }
 
 .password { 
+    display: flex;
+    align-self: center;
     color: black;
+}
+
+.forgot-password {
+    display: flex;
+    align-self: center;
+    font: "Vidaloka";
 }
