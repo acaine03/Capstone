@@ -24,8 +24,8 @@ html {
 
 body {
     margin: 0;
-    display: flexbox;
-    flex-flow: wrap;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -53,10 +53,11 @@ a:hover {
     text-align: center;
 }
 
-.left-side-nav {
+.main-section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+}
+
+.left-side-nav {
     height: 70vh;
     width: 15vw;
     background-color: #6F0765;
@@ -64,33 +65,32 @@ a:hover {
     font-size: 1.5em;
 }
 
+.right-side-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+width: 85vw;
+}
+
 .username {
-    display: flex;
-    align-items: center;
     color: black;
-    
+    width: 50%;
 }
 
 .password { 
-    display: flex;
-    align-self: center;
     color: black;
 }
 
 .sign-in-button button {
-    display: flex;
     color: black;
 }
 
 .sign-in-button {
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
+    color: black;
 }
 
 .forgot-password {
-    display: flex;
-    align-self: center;
     font: "Vidaloka";
     color: royalblue;
 
