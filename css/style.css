@@ -108,6 +108,21 @@ a:hover {
     color: royalblue;
 }
 
+.paragraph-1 {
+    font: Vidaloka;
+    color: black;
+}
+
+.paragraph-2 {
+    font: Vidaloka;
+    color: black;
+}
+
+.paragraph-3 {
+    font: Vidaloka;
+    color: black;
+}
+
 .footer {
     color: black;
 }
